@@ -1,7 +1,10 @@
 import pytest
 import src.exercise
+import os
 
 def test_exercise():
+    os.chdir('src')
+    
     input_values = ["data.txt"]
     output = []
 
